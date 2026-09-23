@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff7fb;
+    color: #4b3f52;
+}
+
+header {
+    background: #cdb4db;
+    color: #3d2f45;
+    padding: 16px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: #3d2f45;
+    text-decoration: none;
+    margin-left: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin: 40px auto;
+}
+
+.hero {
+    background: linear-gradient(135deg, #ffd6e0, #cde7f0);
+    color: #4b3f52;
+    padding: 60px 40px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(156, 122, 151, 0.18);
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin: 0 0 15px;
+}
+
+.button {
+    display: inline-block;
+    background: #bde0fe;
+    color: #3d2f45;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background: #a2d2ff;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(156, 122, 151, 0.14);
+}
+
+.card h1 {
+    color: #8e6c88;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 22px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(156, 122, 151, 0.14);
+}
+
+th {
+    background: #bde0fe;
+    color: #3d2f45;
+    text-align: left;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #f3d5e5;
+}
+
+tr:hover {
+    background: #fff0f6;
+}
+
+footer {
+    text-align: center;
+    color: #8e6c88;
+    padding: 20px;
+}
+
+@media (max-width: 650px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
