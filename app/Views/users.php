@@ -157,6 +157,11 @@
             <a href="<?= base_url('about') ?>">About</a>
             <a href="<?= base_url('customers') ?>">Customers</a>
             <a href="<?= base_url('users') ?>">Users</a>
+
+	<?php if (session()->get('isLoggedIn')): ?>
+    <a href="<?= base_url('logout') ?>">Logout</a>
+<?php endif; ?>
+
         </nav>
     </header>
 
